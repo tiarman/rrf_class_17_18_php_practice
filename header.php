@@ -35,7 +35,7 @@
  <?php
     $currentPage = basename($_SERVER['PHP_SELF']); // Get the current file name
 ?>
-            <li><a href="practice_class_17_18_PHP copy.php" class="<?= ($currentPage == 'practice_class_17_18_PHP copy.php') ? 'active' : '' ?>">Home</a></li>
+            <li><a href="index.php" class="<?= ($currentPage == 'index.php') ? 'active' : '' ?>">Home</a></li>
             <li><a href="pages.php" class="<?= ($currentPage == 'pages.php') ? 'active' : '' ?>">Pages</a></li>
             <li><a href="about_us.php" class="<?= ($currentPage == 'about_us.php') ? 'active' : '' ?>">About Us</a></li>
             <li><a href="contact.php" class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>">Contact</a></li>
